@@ -1,0 +1,25 @@
+{
+  "name": "node-sql",
+  "version": "1.0.0",
+  "description": "Node SQL",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node -r dotenv/config server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dark-thor/node-sql.git"
+  },
+  "author": "Uday Kiran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dark-thor/node-sql/issues"
+  },
+  "homepage": "https://github.com/dark-thor/node-sql#readme",
+  "dependencies": {
+    "@fastify/postgres": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.10.2"
+  }
+}
